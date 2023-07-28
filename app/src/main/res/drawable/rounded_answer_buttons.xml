@@ -1,0 +1,10 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@color/material_dynamic_neutral_variant100"/> <!-- Set the button color here -->
+    <stroke
+        android:color="@color/black"
+        android:width="2dp"
+        android:dashWidth="@dimen/cardview_compat_inset_shadow"/>
+    <corners
+        android:radius="230dp"
+        /> <!-- Set the corner radius here -->
+</shape>

@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">webrtcProjectForRecord</string>
+    <string name="username">    username</string>
+    <string name="enter">LOGIN</string>
+    <string name="call">call</string>
+    <string name="audio_output_button">audio_output_button</string>
+    <string name="switch_camera_button">switch_camera_button</string>
+    <string name="microphone_button">microphone_button</string>
+    <string name="end_call_button">end_call_button</string>
+    <string name="accept_button">accept_button</string>
+    <string name="reject_button">reject_button</string>
+    <string name="who_to_call">who to call ?</string>
+    <string name="video_button">video_button</string>
+    <string name="someone_is_calling">someone is calling</string>
+    <string name="login_page">Login Page</string>
+    <string name="place">Place</string>
+    <string name="placeElement">PlaceElement</string>
+    <string name="capture_is_disposed" />
+    <string name="captue_observer_not_set" />
+    <string name="surface_texture_helper_not_set" />
+    <string name="square" />
+    <string name="circle" />
+    <string name="rectangle" />
+    <string name="triangle" />
+    <string name="object_detection_button">object_detection_button</string>
+    <string name="object_detection">object_detection</string>
+</resources>
