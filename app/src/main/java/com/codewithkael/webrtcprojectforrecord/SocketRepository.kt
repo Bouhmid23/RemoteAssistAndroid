@@ -20,7 +20,7 @@ class SocketRepository (private val messageInterface: NewMessageInterface) {
     fun initSocket(username: String) {
         userName = username
         val client = OkHttpClient()
-        val request = Request.Builder().url("ws://192.168.20.79:3000").build()
+        val request = Request.Builder().url("wss://signaling-server-keuc.onrender.com").build()
         val webSocketListener = object : WebSocketListener() {
             override fun onOpen(webSocket: WebSocket, response: Response) {
                 sendMessageToSocket(

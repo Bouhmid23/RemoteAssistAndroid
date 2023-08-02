@@ -190,8 +190,6 @@ class CallActivity : AppCompatActivity(), NewMessageInterface {
                     }
                 }
                 }
-
-
     }
     private fun draw(mutable:Bitmap, locations:FloatArray,
                      classes:FloatArray, scores: FloatArray,
@@ -275,11 +273,9 @@ class CallActivity : AppCompatActivity(), NewMessageInterface {
                             binding.targetUserNameEt.setText(nameList[position])
                         }
                     }
-
                 }catch (e:Exception){
                     e.printStackTrace()
                 }
-
             }
             "server_answer" ->{
                 val session = SessionDescription(
@@ -299,7 +295,6 @@ class CallActivity : AppCompatActivity(), NewMessageInterface {
                         setIncomingCallLayoutGone()
                         setCallLayoutVisible()
                         setWhoToCallLayoutGone()
-
                         binding.apply {
                             if(!isLocalViewInitialized){
                                 rtcClient?.initializeSurfaceView(localView)
